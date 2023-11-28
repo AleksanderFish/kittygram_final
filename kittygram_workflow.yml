@@ -26,7 +26,7 @@ jobs:
       postgres:
         image: postgres:13.10
         # Указываем имя тестовой базы, имя и пароль пользователя в открытом виде,
-  env:
+        env:
           POSTGRES_USER: django_user
           POSTGRES_PASSWORD: django_password
           POSTGRES_DB: django_db
