@@ -35,4 +35,5 @@ services:
       - media:/media
     depends_on:
       - backend
+      - frontend
 
